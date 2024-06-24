@@ -14,6 +14,11 @@
            fetch="https://github.com/ProjectBlaze"
            revision="14-QPR3" />
 
+  <!-- Slogar25 -->
+  <remote  name="slogar25"
+           fetch="https://github.com/slogar25"
+           revision="husky" />
+
   <!-- Gitea (Project Blaze) -->
   <remote  name="blaze-gitea"
            fetch="https://gitea.com/projectblaze"
@@ -47,7 +52,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="manifest" name="manifest" remote="blaze" />
+  <project path="manifest" name="manifest_blaze" revision="husky" remote="slogar25" />
 
   <!-- Remote Hardware -->
   <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" remote="blaze" />
