@@ -32,8 +32,8 @@
 
   <!-- Google Devices-->
   <project path="device/google/gs-common" name="android_device_google_gs-common" revision="lineage-21" remote="lineage" />
-  <project path="device/google/shusky" name="android_device_google_shusky" revision="lineage-21" remote="lineage">
-  <project path="device/google/zuma" name="android_device_google_zuma" revision="lineage-21" remote="lineage">
+  <project path="device/google/shusky" name="android_device_google_shusky" revision="lineage-21" remote="lineage" />
+  <project path="device/google/zuma" name="android_device_google_zuma" revision="lineage-21" remote="lineage" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
